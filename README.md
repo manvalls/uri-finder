@@ -26,7 +26,7 @@ uriFinder.find(text,function(uri,scheme,userinfo,host,port,path,query,fragment){
 
 result = uriFinder.replace(text,'<a href="$uri">$host$path</a>');
 
-result = uriFinder.replace(text,function(uri,scheme/* etc */){
+result = uriFinder.replace(text,function(uri,scheme /* etc */ ){
   if(scheme.match(/^https?$/)) return '<a href="' + uri + '">' + uri + '</a>';
   else return uri;
 });
