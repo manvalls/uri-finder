@@ -13,7 +13,8 @@ No piece of software is ever completed, feel free to contribute and be humble.
 ```javascript
 var uriFinder = require('uri-finder'),
     text =  'Check this out: ' +
-            'http://user:password@foo.com:8080/index.html?foo=bar&place=holder#lorem-ipsum',
+            'http://user:password@foo.com:8080/' +
+            'index.html?foo=bar&place=holder#lorem-ipsum',
     result;
 
 result = uriFinder.find(text);
