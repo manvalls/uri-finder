@@ -1,6 +1,6 @@
 {
   "name": "uri-finder",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Find and/or replace all absolute URIs on a string. RFC 3986 compliant.",
   "main": "main.js",
   "dependencies": {},
